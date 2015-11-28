@@ -20,7 +20,7 @@ public class StrobogrammaticNumberII {
 			list.add("");
 		}
 		int count=n/2;
-		while(count!=0){
+		while(count-- >0){
 			List<String> list2=new ArrayList<String>();
 			for(String s:list){
 				list2.add("6"+s+"9");
@@ -33,7 +33,7 @@ public class StrobogrammaticNumberII {
 				
 				list=list2;
 			}
-			count--;
+			
 		}
 		return list;
 	}
