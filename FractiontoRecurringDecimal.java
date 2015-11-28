@@ -6,7 +6,7 @@ public class FractiontoRecurringDecimal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(fractionToDecimal(-1,-2147483648));
+		System.out.println(fractionToDecimal(1,Integer.MAX_VALUE));
 	}
 
 	public static String fractionToDecimal(int numerator, int denominator) {
