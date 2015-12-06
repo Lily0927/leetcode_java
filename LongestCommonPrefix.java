@@ -2,6 +2,7 @@ package Leetcode;
 
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
+    	//针对每一个index判断每一个string的值满不满足
     	String temp="";
         if(strs.length==0){
     		return null;
